@@ -1,4 +1,3 @@
-
 import Hero from "@/components/Hero";
 import TableOfContents from "@/components/TableOfContents";
 import Overview from "@/components/Overview";
@@ -13,6 +12,12 @@ import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
+import BlogPosts from "@/components/BlogPosts";
+import Industries from "@/components/Industries";
+import RelatedPages from "@/components/RelatedPages";
+import ScheduleMeeting from "@/components/ScheduleMeeting";
+import VideoTestimonials from "@/components/VideoTestimonials";
+import SEOGuides from "@/components/SEOGuides";
 
 const Index = () => {
   return (
@@ -32,6 +37,12 @@ const Index = () => {
         <FAQ />
         <FinalCTA />
       </div>
+      <BlogPosts />
+      <Industries />
+      <RelatedPages />
+      <ScheduleMeeting />
+      <VideoTestimonials />
+      <SEOGuides />
       <Footer />
     </div>
   );
