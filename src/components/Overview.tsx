@@ -9,26 +9,19 @@ const Overview = () => {
           Grow Your <span className="text-blue-600">Ann Arbor Business</span> with Proven SEO Strategies
         </h2>
         
-        <div className="text-lg text-gray-600 leading-relaxed space-y-6">
+        <div className="text-lg text-gray-600 leading-relaxed space-y-6 mb-16">
           <p>
             Ann Arbor's competitive digital landscape demands more than cookie-cutter SEO approaches. 
             As a locally-focused SEO agency with 5+ years of Michigan market expertise, we understand 
             the unique challenges facing businesses in Southeast Michigan—from competing with Detroit 
-            metro companies to capturing local university traffic.
-          </p>
-          
-          <p>
-            Our data-backed SEO strategies have generated over $50M in documented revenue growth for 
-            clients across Ann Arbor, Ypsilanti, and surrounding communities. We specialize in 
-            ROI-focused campaigns that deliver measurable results, not vanity metrics.
-          </p>
-          
-          <p className="text-blue-600 font-semibold">
-            Looking for measurable SEO growth in Ann Arbor? Let's talk.
+            metro companies to capturing local university traffic. Our data-backed SEO strategies have 
+            generated over $50M in documented revenue growth for clients across Ann Arbor, Ypsilanti, 
+            and surrounding communities. We specialize in ROI-focused campaigns that deliver measurable 
+            results, not vanity metrics. Want better rankings in Ann Arbor? Let's talk.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
+        <div className="grid md:grid-cols-3 gap-8">
           <div className="text-center">
             <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <MapPin className="w-8 h-8 text-blue-600" />
